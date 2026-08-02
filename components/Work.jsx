@@ -37,12 +37,15 @@ const Work = ({isDarkMode}) => {
       transition={{delay: 0.9, duration: 0.6}}
       className='grid grid-cols-auto md:grid-cols-2 xl:grid-cols-3 my-10 gap-6 dark:text-black'>
         {workData.map((project, index) => (
-          <motion.div
+          <motion.a
+          href={project.link}
+          target='_blank'
+          rel='noopener noreferrer'
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
           key={index} 
           className='aspect-square overflow-hidden rounded-lg relative cursor-pointer group
-          shadow-sm transition-transform duration-500 hover:scale-[1.02] bg-white'
+          shadow-sm transition-transform duration-500 hover:scale-[1.02] bg-white block'
           style={{ backgroundImage: `url(${project.bgImage})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
             <div className='bg-white w-[90%] sm:w-10/12 rounded-md absolute bottom-3 sm:bottom-5 left-1/2
             -translate-x-1/2 py-3 px-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 duration-500 group-hover:bottom-4 sm:group-hover:bottom-7'>
@@ -55,7 +58,7 @@ const Work = ({isDarkMode}) => {
               <Image src={assets.send_icon} alt='send icon' className='w-5'/>
              </div>
             </div>
-          </motion.div>
+          </motion.a>
         ))}
       </motion.div>
       <motion.a

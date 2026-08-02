@@ -42,7 +42,7 @@ const Header = ({ isDarkMode }) => {
             transition={{duration: 0.6, delay: 1}}
             href='#contact'
             className='px-10 py-3 border border-white rounded-full bg-black
-            text-white flex items-center gap-2 dark:bg-transparent dark:border-white/60'>
+            text-white flex items-center gap-2 dark:bg-transparent'>
             Contact Me <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_white} alt='' 
             className='w-4' /> </motion.a>
 
@@ -52,7 +52,7 @@ const Header = ({ isDarkMode }) => {
             transition={{duration: 0.6, delay: 1.2}}
             href='/Parv_Gothwal.pdf' download
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 
-            bg-white text-gray-900 dark:bg-[#2a004a] dark:text-white dark:border-white/50'>
+            bg-white text-gray-900 dark:text-black dark:border-white/50'>
             My Resume<Image src={assets.download_icon} alt='' 
             className='w-4' /> </motion.a>
         </div>

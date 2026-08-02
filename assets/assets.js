@@ -91,16 +91,19 @@ export const workData = [
         title: 'Scheduler',
         description: 'AI Powered Social Media Automation',
         bgImage: '/work-1.png',
+        link: 'https://social-scheduler-ai.onrender.com',
     },
     {
         title: 'Resume.',
         description: 'AI Powered Resume Builder',
         bgImage: '/work-2.png',
+        link: 'https://resume-builder-p8we.onrender.com',
     },
     {
         title: 'Project Management',
         description: 'Multi-tenant management platform',
         bgImage: '/work-3.png',
+        link: 'https://project-mgt-azure.vercel.app',
     },
 ]
 

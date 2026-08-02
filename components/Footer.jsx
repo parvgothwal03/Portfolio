@@ -6,7 +6,7 @@ const Footer = ({isDarkMode}) => {
   return (
     <div className='mt-20 text-gray-900 dark:text-white'>
       <div className='text-center'>
-        <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='' className='w-32 mx-auto mb-2' />
+        <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='' className='w-45 mx-auto mb-1' />
 
         <div className='w-max max-w-full flex items-center justify-center gap-2 mx-auto text-sm sm:text-base'>
         <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6' />
