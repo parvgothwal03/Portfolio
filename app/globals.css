@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
 * {
-  font-family: "Outfit, Ovo";
+  font-family: "Outfit", sans-serif;
+}
+
+.font-Ovo,
+.Ovo,
+.ovo {
+  font-family: "Ovo", serif;
+}
+
+body {
+  @apply bg-white text-gray-900 transition-colors duration-300;
+}
+
+html.dark body {
+  @apply bg-[#11001F] text-white;
 }
