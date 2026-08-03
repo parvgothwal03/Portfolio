@@ -96,13 +96,13 @@ export const workData = [
     {
         title: 'Resume.',
         description: 'AI Powered Resume Builder',
-        bgImage: '/work-2.png',
+        bgImage: '/work-3.png',
         link: 'https://resume-builder-p8we.onrender.com',
     },
     {
         title: 'Project Management',
         description: 'Multi-tenant management platform',
-        bgImage: '/work-3.png',
+        bgImage: '/work-2.png',
         link: 'https://project-mgt-azure.vercel.app',
     },
 ]
