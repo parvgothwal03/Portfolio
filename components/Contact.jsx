@@ -85,8 +85,8 @@ const Contact = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
             type='submit'
-            className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80
-            text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] 
+            className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black
+            text-white rounded-full mx-auto hover:bg-black duration-300 dark:bg-transparent dark:border-[0.5px] 
             dark:hover:bg-[#2a004a]'>
             Send Message <Image src={assets.right_arrow_white} alt='submit' className='w-4'/></motion.button>
 

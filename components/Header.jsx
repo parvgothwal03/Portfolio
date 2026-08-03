@@ -33,7 +33,7 @@ const Header = ({ isDarkMode }) => {
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo text-sm sm:text-base px-2'>
-            I am a Full stack Web Developer with experience in 
+            Just a vibe coder who loves to create beautiful and functional websites, and passionate about learning new technologies and improving my skills.
         </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4 w-full sm:w-auto'>
             <motion.a
@@ -52,7 +52,7 @@ const Header = ({ isDarkMode }) => {
             transition={{duration: 0.6, delay: 1.2}}
             href='/Parv_Gothwal.pdf' download
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 
-            bg-white text-gray-900 dark:text-black dark:border-white/50'>
+            bg-white text-gray-900  dark:text-black dark:border-white/50'>
             My Resume<Image src={assets.download_icon} alt='' 
             className='w-4' /> </motion.a>
         </div>

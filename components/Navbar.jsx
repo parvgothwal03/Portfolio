@@ -41,7 +41,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white/50 shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}`}>
           <li><a className='font-Ovo' href="#top">Home</a></li>
           <li><a className='font-Ovo' href="#about">About Me</a></li>
-          <li><a className='font-Ovo' href="#work">My Work</a></li>
+          <li><a className='font-Ovo' href="#work">Projects</a></li>
           <li><a className='font-Ovo' href="#contact">Contact Me</a></li>
         </ul>
 
